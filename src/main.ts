@@ -251,6 +251,9 @@ function esc(s: string) {
   return s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 }
 
+// no browser right-click menu (Back / Refresh / Print) on the widget
+document.addEventListener("contextmenu", (e) => e.preventDefault());
+
 listen("edit-amount", openEditor);
 document.fonts.ready.then(refresh);
 setInterval(refresh, 2500); // picks up hand edits to ladder.json
