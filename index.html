@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Income Ladder</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+  <body>
+    <div id="card">
+      <div id="sky" aria-hidden="true"></div>
+
+      <header>
+        <div class="amount-block">
+          <div class="eyebrow">Monthly revenue</div>
+          <div id="amount" data-nodrag title="Double-click to edit">
+            <span id="amount-num">0</span><span id="amount-cur">AED/mo</span>
+          </div>
+          <form id="amount-form" data-nodrag hidden>
+            <input id="amount-input" inputmode="numeric" autocomplete="off" spellcheck="false" />
+            <span class="hint">Enter ↵ to save · Esc to cancel</span>
+          </form>
+        </div>
+        <div class="status">
+          <div class="pill"><b id="pct">0%</b> of goal</div>
+          <div id="next"></div>
+        </div>
+      </header>
+
+      <div id="rail">
+        <div id="stage"></div>
+        <div id="bar">
+          <div id="fill"><div class="shine"></div></div>
+          <div id="notches"></div>
+        </div>
+        <div id="labels"></div>
+        <div id="you-pin"><div class="tip"></div><div class="badge"></div></div>
+      </div>
+
+      <div id="error" hidden></div>
+      <div id="tooltip" hidden></div>
+      <canvas id="confetti"></canvas>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+{
+  "currency": "AED",
+  "current": 2800,
+  "goal": 10000,
+  "scaleMax": 15000,
+  "you": {
+    "name": "You",
+    "look": {
+      "skin": "#c68a5e",
+      "hair": "#1c1410",
+      "beard": "long",
+      "beardColor": "#1c1410",
+      "outfit": "#f5f2ea",
+      "headwear": "none"
+    }
+  },
+  "milestones": [
+    {
+      "amount": 3000,
+      "name": "Ali",
+      "note": "Cousin. Also what a normal employee makes here: the bare minimum.",
+      "kind": "person",
+      "look": {
+        "skin": "#9a5f3a",
+        "hair": "#1a110c",
+        "beard": "full",
+        "beardColor": "#1a110c",
+        "outfit": "#f5f2ea",
+        "headwear": "none"
+      }
+    },
+    {
+      "amount": 5000,
+      "name": "SCASS",
+      "note": "What an SCASS employee makes.",
+      "kind": "flag",
+      "color": "#2ec4b6"
+    },
+    {
+      "amount": 7000,
+      "name": "7K tier",
+      "note": "The next set of employees.",
+      "kind": "flag",
+      "color": "#8e5bff"
+    },
+    {
+      "amount": 9000,
+      "name": "9K tier",
+      "note": "Almost there.",
+      "kind": "flag",
+      "color": "#ff4f81"
+    },
+    {
+      "amount": 10000,
+      "name": "GOAL",
+      "note": "10,000 a month. The good amount.",
+      "kind": "goal",
+      "color": "#ffd23f"
+    },
+    {
+      "amount": 15000,
+      "name": "Ibrahim",
+      "note": "Friend, project manager. If we reach this, it's crazy.",
+      "kind": "person",
+      "look": {
+        "skin": "#ecc7a2",
+        "hair": "#2b2320",
+        "beard": "full",
+        "beardColor": "#2b2320",
+        "outfit": "#f5f2ea",
+        "headwear": "none"
+      }
+    }
+  ],
+  "settings": {
+    "alwaysOnTop": false
+  }
+}

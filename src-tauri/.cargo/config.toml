@@ -1,0 +1,4 @@
+# Keep the heavy Rust build output on D: (C: is short on space)
+[build]
+target-dir = "D:/build/income-ladder/target"
+jobs = 4
